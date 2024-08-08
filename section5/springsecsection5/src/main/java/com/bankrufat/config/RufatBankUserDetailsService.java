@@ -15,7 +15,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class RufatBankBackEndService implements UserDetailsService {
+public class RufatBankUserDetailsService implements UserDetailsService {
 
     private final CustomerRepository customerRepository;
 
